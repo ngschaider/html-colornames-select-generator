@@ -14,9 +14,7 @@ The generated output should look similar to this:
 echo "<select>";
 echo "<option value=\"AliceBlue\">AliceBlue</option>";
 echo "<option value=\"AntiqueWhite\">AntiqueWhite</option>";
-.
-.
-.
+[...]
 echo "<option value=\"Yellow\">Yellow</option>";
 echo "<option value=\"YellowGreen\">YellowGreen</option>";
 echo "</select>";
