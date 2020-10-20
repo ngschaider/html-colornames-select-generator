@@ -300,7 +300,6 @@ YellowGreen
 const inputArr = input.split("\n");
 var output = "echo \"<select>\";\n";
 for(var i = 0; i < inputArr.length; i += 2) {
-  console.log("hi");
   output += 'echo \"<option value=\\"' + inputArr[i] + '\\">'  + inputArr[i] + '</option>\";\n';
 }
 output += "echo \"</select>\";";
